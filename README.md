@@ -30,7 +30,7 @@ It enables **real-time monitoring, status tracking, and secure authentication us
 
 ### 🔹 Clone the Repository  
 ```sh
-git clone https://github.com/yourusername/secure-code-review.git  
+git clone https://github.com/yRaviKanthh/Secure-Coding-Review.git 
 cd secure-code-review
 ```
 

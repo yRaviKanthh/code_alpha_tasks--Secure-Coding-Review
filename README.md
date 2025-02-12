@@ -32,12 +32,14 @@ It enables **real-time monitoring, status tracking, and secure authentication us
 ```sh
 git clone https://github.com/yourusername/secure-code-review.git  
 cd secure-code-review
+```
 
 ### 🔹 Install Dependencies
 ```sh
 Copy
 Edit
-pip install -r requirements.txt  
+pip install -r requirements.txt
+``` 
 
 ### 🔹 Run the Application
 ```sh
@@ -61,6 +63,7 @@ python app.py
 
 ## 🤝 Contributing
 Contributions are welcome! Feel free to fork the repo, create a new branch, and submit a Pull Request. 😊
+
 ⭐ If you like this project, give it a star on GitHub! ⭐
 
 Let me know if you need any modifications! 🚀

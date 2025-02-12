@@ -46,6 +46,8 @@ python app.py
 
 ---
 
+---
+
 🏆 Future Enhancements
 
 ✅ Improve security with role-based access control

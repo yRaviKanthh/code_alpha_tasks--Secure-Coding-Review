@@ -26,25 +26,26 @@ It enables **real-time monitoring, status tracking, and secure authentication us
 
 ---
 
-## 🔧 Installation & Setup  
+### 🔧 Installation & Setup  
 
 ### 🔹 Clone the Repository  
 ```sh
 git clone https://github.com/yourusername/secure-code-review.git  
 cd secure-code-review
-🔹 Install Dependencies
-sh
+
+### 🔹 Install Dependencies
+```sh
 Copy
 Edit
 pip install -r requirements.txt  
-🔹 Run the Application
-sh
+
+### 🔹 Run the Application
+```sh
 Copy
 Edit
 python app.py  
 🔗 Open your browser and navigate to http://localhost:5000/
-
----
+```
 
 ## 🏆 Future Enhancements
 

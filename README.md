@@ -44,18 +44,22 @@ Edit
 python app.py  
 🔗 Open your browser and navigate to http://localhost:5000/
 
+---
+
 🏆 Future Enhancements
+
 ✅ Improve security with role-based access control
+
 ✅ Implement an AI-powered static code analysis tool
+
 ✅ Add user activity logging for audit purposes
+
 ✅ Deploy on cloud platforms for scalability
+
+---
 
 🤝 Contributing
 Contributions are welcome! Feel free to fork the repo, create a new branch, and submit a Pull Request. 😊
 ⭐ If you like this project, give it a star on GitHub! ⭐
-
-vbnet
-Copy
-Edit
 
 Let me know if you need any modifications! 🚀

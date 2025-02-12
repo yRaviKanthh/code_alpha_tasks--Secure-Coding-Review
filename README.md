@@ -1,12 +1,46 @@
-Secure Code Review SystemOverviewThe Secure Code Review System is a web-based application that helps manage user authentication, motion detection, and real-time notifications using Flask, SQLite, and WebSockets.
-Features✅ User Authentication: Secure login/logout with JWT-based authentication.✅ Real-time Notifications: Uses Flask-SocketIO for live updates.✅ Motion Detection: Updates user availability based on motion and Bluetooth device status.✅ Search & Filtering: Allows searching for users in the database.✅ Role-based Dashboard: Displays user details dynamically based on authentication.✅ Security Features: Uses hashed passwords and token-based authentication.
-Technologies Used🛠 Backend: Flask (Python)🗄 Database: SQLite🔐 Authentication: JWT (JSON Web Tokens)🎨 Frontend: HTML, CSS, JavaScript⚡ Real-time Communication: Flask-SocketIO, WebSockets🔒 Security: Hashing (SHA-256), JWT token protection
-Installation📥 Clone the Repositorygit clone https://github.com/yourusername/secure-code-review.git
-cd secure-code-review📦 Install Dependenciespip install -r requirements.txt🚀 Run the Applicationpython app.pyor using Flask-SocketIO:
-python -m flask run --host=0.0.0.0 --port=80Usage🔑 Login: Users can log in with their email and password.
-📊 Dashboard: Displays the status of logged-in users.
-🔔 Real-time Updates: Notifications are pushed via WebSockets.
-🔍 User Search: Find users based on username.
-🚪 Logout: Clears the authentication token.
-API Endpoints📌 / - Home Page📌 /login - User Login📌 /logout - User Logout📌 /dashboard - User Dashboard (Requires Authentication)📌 /search - Search for users📌 /status - Update user status📌 /timings - Update availability timings📌 /your_endpoint - Receive motion and Bluetooth data
-Contribution1️⃣ Fork the repository.2️⃣ Create a new branch (feature-branch-name).3️⃣ Commit your changes.4️⃣ Push to your fork and create a Pull Request.
+Secure Code Review System
+📌 About the Project
+The Secure Code Review System is a Flask-based web application designed to enhance security by reviewing and managing user access dynamically. It enables real-time monitoring, status tracking, and secure authentication using JWT tokens. The system also integrates WebSockets for live notifications.
+
+🔑 Key Features
+✅ User Authentication – Secure login using JWT tokens.
+🔍 Real-Time Notifications – WebSocket-based user status updates.
+🔐 Access Control – Review and manage users dynamically.
+📊 Database Management – SQLite integration for efficient user tracking.
+🌐 CORS Support – Secure cross-origin access for frontend integration.
+🛠️ Tech Stack
+Backend: Flask, SQLite, JWT, WebSockets (Flask-SocketIO)
+Frontend: HTML, CSS, JavaScript (for UI integration)
+Security: SHA-256 password hashing, JWT authentication
+Communication: WebSockets for real-time updates
+📂 Project Structure
+php
+Copy
+Edit
+secure-code-review/
+├── static/                # CSS, JavaScript, frontend assets  
+├── templates/             # HTML templates (Flask views)  
+├── app.py                 # Main backend logic  
+├── users.db               # SQLite database  
+├── requirements.txt       # Dependencies list  
+└── README.md              # Documentation  
+🚀 Getting Started
+1️⃣ Clone the Repository
+sh
+Copy
+Edit
+git clone https://github.com/yourusername/secure-code-review.git  
+cd secure-code-review  
+2️⃣ Install Dependencies
+sh
+Copy
+Edit
+pip install -r requirements.txt  
+3️⃣ Run the Application
+sh
+Copy
+Edit
+python app.py  
+Open your browser and navigate to http://localhost:5000.
+🤝 Contributing
+Contributions are welcome! Feel free to fork the repo, create a new branch, and submit a Pull Request.

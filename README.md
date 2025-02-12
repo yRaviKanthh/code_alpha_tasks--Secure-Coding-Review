@@ -21,7 +21,7 @@ It enables **real-time monitoring, status tracking, and secure authentication us
 
 - **Backend:** Flask, SQLite, JWT, WebSockets (Flask-SocketIO)  
 - **Frontend:** HTML, CSS, JavaScript (for UI integration)  
-- **Security:** SHA-256 password hashing, JWT authentication  
+- **Security:** JWT authentication  
 - **Communication:** WebSockets for real-time updates  
 
 ---

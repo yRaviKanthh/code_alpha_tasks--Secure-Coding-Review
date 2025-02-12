@@ -46,9 +46,7 @@ python app.py
 
 ---
 
----
-
-🏆 Future Enhancements
+## 🏆 Future Enhancements
 
 ✅ Improve security with role-based access control
 
@@ -60,7 +58,7 @@ python app.py
 
 ---
 
-🤝 Contributing
+## 🤝 Contributing
 Contributions are welcome! Feel free to fork the repo, create a new branch, and submit a Pull Request. 😊
 ⭐ If you like this project, give it a star on GitHub! ⭐
 
